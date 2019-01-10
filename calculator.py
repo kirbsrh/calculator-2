@@ -22,6 +22,10 @@ while True:
         if str(tokens[0]) == ("+"):
             add_answer=add(int(tokens[1]),int(tokens[2]))
             print(add_answer)
+        elif str(tokens[0]) == ("-"):
+            subtract_answer=subtract(int(tokens[1]),int(tokens[2]))
+            print(subtract_answer)
+               
 
             
 
