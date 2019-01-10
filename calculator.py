@@ -25,7 +25,11 @@ while True:
         elif str(tokens[0]) == ("-"):
             subtract_answer=subtract(int(tokens[1]),int(tokens[2]))
             print(subtract_answer)
-               
+        elif str(tokens[0]) == ("*"):
+            multiply_answer=multiply(int(tokens[1]),int(tokens[2]))
+            print(multiply_answer)
+                
+
 
             
 
