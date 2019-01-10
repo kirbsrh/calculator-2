@@ -28,7 +28,11 @@ while True:
         elif str(tokens[0]) == ("*"):
             multiply_answer=multiply(int(tokens[1]),int(tokens[2]))
             print(multiply_answer)
+        elif str(tokens[0]) == ("/"):
+            divide_answer=divide(int(tokens[1]),int(tokens[2]))
+            print(divide_answer)
                 
+
 
 
             
