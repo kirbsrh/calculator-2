@@ -40,7 +40,11 @@ while True:
         elif str(tokens[0]) == ("pow"):
             pow_answer=pow(int(tokens[1]),int(tokens[2]))
             print(pow_answer)
+        elif str(tokens[0]) == ("mod"):
+            mod_answer=mod(int(tokens[1]),int(tokens[2]))
+            print(mod_answer)
             
+
 
                 
 
