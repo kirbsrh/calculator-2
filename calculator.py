@@ -34,6 +34,10 @@ while True:
         elif str(tokens[0]) == ("square"):
             square_answer=square(int(tokens[1]))
             print(square_answer)
+        elif str(tokens[0]) ==("cube"):
+            cube_answer=cube(int(tokens[1]))
+            print(cube_answer)
+            
                 
 
 
